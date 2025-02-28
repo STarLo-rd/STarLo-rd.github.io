@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Mohanpathi portfolio"
-  text: "By personal findings/research and works"
-  tagline: My great project tagline
+  name: "My Portfolio"
+  text: "Showcasing my research, projects, and technical insights"
+  tagline: "Innovating through code, data, and scalable systems"
   actions:
     - theme: brand
       text: projects
