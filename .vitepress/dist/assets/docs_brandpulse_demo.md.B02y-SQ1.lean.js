@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.BHrE6nLq.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/brandpulse/demo.md","filePath":"docs/brandpulse/demo.md"}'),a={name:"docs/brandpulse/demo.md"};function s(r,d,c,n,p,m){return o(),t("div")}const l=e(a,[["render",s]]);export{i as __pageData,l as default};

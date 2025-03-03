@@ -18,8 +18,9 @@ features:
   - title: QuickLinker-ZeroRPM
     details: A scalable URL shortener built with Node.js, PostgreSQL, and Redis, designed to handle high traffic while optimizing performance with caching and cost-saving strategies
     link: /docs/zeroRPM
-  - title: Feature B
+  - title: Brandpulse
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /docs/brandpulse
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

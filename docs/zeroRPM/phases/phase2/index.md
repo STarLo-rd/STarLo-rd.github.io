@@ -4,9 +4,9 @@
 
 ## Project Overview
 
-**Objective:** Add an analytics dashboard to your URL shortener.
+**Objective:** Add an analytics dashboard to our URL shortener.
 
-**Why This Matters:** This phase forces you to handle high-write workloads using timeseries data, a common challenge in production systems.
+**Why This Matters:** This phase forces us to handle high-write workloads using timeseries data, a common challenge in production systems.
 
 ## Implementation Journey
 
@@ -32,11 +32,11 @@
   - Buffer capacity and limitations
   - Recovery time after service restoration
   - Data integrity throughout the failure scenario
-- **Key Learning:** Understanding the resilience characteristics of your event streaming architecture
+- **Key Learning:** Understanding the resilience characteristics of our event streaming architecture
 
 ## Expected Outcomes
 
-By the end of Phase 2, you will have:
+By the end of Phase 2, we will have:
 - A functional analytics dashboard providing insights into URL usage
 - A resilient architecture that can handle high-write workloads
 - Empirical data on system behavior during component failures
