@@ -1,14 +1,14 @@
 ---
 title: BrandPulse - Real-Time Social Media Monitoring at Scale
-description: A high-throughput platform processing 500K social media posts per second for instant brand sentiment insights.
+description: A high-throughput platform processing 700k social media posts per second for instant brand sentiment insights.
 ---
 
 # BrandPulse: Real-Time Social Media Monitoring at Scale
 
-Welcome to **BrandPulse**, a MVP that processes **500,000 social media posts per second** to deliver real-time brand sentiment insights. Built with Node.js, Kafka, and InfluxDB, this platform simulates a flood of tweets about "SuperCoffee," proving my ability to design scalable, high-performance systems.
+Welcome to **BrandPulse**, a MVP that processes **700,000 social media posts per second** to deliver real-time brand sentiment insights. Built with Node.js, Kafka, and InfluxDB, this platform simulates a flood of tweets about "SuperCoffee," proving my ability to design scalable, high-performance systems.
 
 <!-- ![Dashboard Screenshot](./assets/dashboard-screenshot.png)  
-*Live dashboard showing sentiment and tweet volume at 500K req/sec.* -->
+*Live dashboard showing sentiment and tweet volume at 700k req/sec.* -->
 
 ## What It Does
 BrandPulse solves the problem of delayed brand monitoring by providing instant visibility into how people feel about a brand—positive, negative, or neutral. Key features include:
