@@ -21,7 +21,7 @@ Dive into the details of the project:
 - [Problem Statement](./problem-statement) - Why brands need this now.
 - [Use Cases](./use-cases) - Real-world applications and scenarios.
 - [Technical Architecture](./technical-arch) - How it’s built under the hood.
-- [Implementation Details](./implementation) - Code and design decisions.
+- [Implementation Details](./implementation/) - Code and design decisions.
 - [Value Proposition](./value-prop) - Business impact and personal growth.
 - [Future Enhancements](./future-enhancements) - What’s next for BrandPulse.
 - [Why It Rocks](./why-it-rocks) - Portfolio highlights and key takeaways.

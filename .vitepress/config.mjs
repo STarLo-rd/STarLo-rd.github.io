@@ -19,7 +19,7 @@ export default defineConfig({
 
     // Sidebar for specific sections
     sidebar: {
-      // Sidebar for ZeroRPM project
+      // Sidebar for ZeroRPM project (unchanged)
       '/docs/zeroRPM/': [
         {
           text: 'QuickLinker-ZeroRPM',
@@ -32,7 +32,7 @@ export default defineConfig({
         }
       ],
       
-      // Sidebar for BrandPulse project
+      // Sidebar for BrandPulse project (updated)
       '/docs/brandpulse/': [
         {
           text: 'BrandPulse',
@@ -41,7 +41,43 @@ export default defineConfig({
             { text: 'Problem Statement', link: '/docs/brandpulse/problem-statement' },
             { text: 'Use Cases', link: '/docs/brandpulse/use-cases' },
             { text: 'Technical Architecture', link: '/docs/brandpulse/technical-arch' },
-            { text: 'Implementation', link: '/docs/brandpulse/implementation' },
+            {
+              text: 'Implementation',
+              link: '/docs/brandpulse/implementation/',
+              collapsed: true,
+              items: [
+                {
+                  text: 'Research Prototypes',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: 'Data Generation',
+                      items: [
+                        { text: 'Overview', link: '/docs/brandpulse/implementation/research/data-generation/overview' },
+                        { text: 'Version 1', link: '/docs/brandpulse/implementation/research/data-generation/v1' },
+                        { text: 'Version 2', link: '/docs/brandpulse/implementation/research/data-generation/v2' },
+                        { text: 'Version 3', link: '/docs/brandpulse/implementation/research/data-generation/v3' },
+                        { text: 'Version 4', link: '/docs/brandpulse/implementation/research/data-generation/v4' },
+                        { text: 'Version 5', link: '/docs/brandpulse/implementation/research/data-generation/v5' }
+                      ]
+                    },
+                    {
+                      text: 'Data Ingestion',
+                      items: [
+                        { text: 'Overview', link: '/docs/brandpulse/implementation/research/data-ingestion/overview' },
+                      ]
+                    }
+                  ]
+                },
+                { text: 'Producer', link: '/docs/brandpulse/implementation/producer' },
+                { text: 'Consumer', link: '/docs/brandpulse/implementation/consumer' },
+                { text: 'Sentiment Analysis', link: '/docs/brandpulse/implementation/sentiment-analysis' },
+                { text: 'InfluxDB Integration', link: '/docs/brandpulse/implementation/influxdb' },
+                { text: 'Performance Optimization', link: '/docs/brandpulse/implementation/performance' },
+                { text: 'Issues Faced', link: '/docs/brandpulse/implementation/issues-faced' },
+                { text: 'Lessons Learned', link: '/docs/brandpulse/implementation/lessons-learned' }
+              ]
+            },
             { text: 'Value Proposition', link: '/docs/brandpulse/value-prop' },
             { text: 'Future Enhancements', link: '/docs/brandpulse/future-enhancements' },
             { text: 'Why It Rocks', link: '/docs/brandpulse/why-it-rocks' },
@@ -50,13 +86,13 @@ export default defineConfig({
         }
       ],
 
-      // Optional: Sidebar for root (e.g., Home page)
+      // Sidebar for root (unchanged)
       '/': [
         {
           text: 'Welcome',
           items: [
             { text: 'Home', link: '/' },
-            { text: 'Projects', link: '/docs/zeroRPM/' } // Default to ZeroRPM or a projects overview page
+            { text: 'Projects', link: '/docs/zeroRPM/' }
           ]
         }
       ]
