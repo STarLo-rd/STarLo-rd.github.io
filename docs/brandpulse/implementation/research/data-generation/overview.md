@@ -5,7 +5,7 @@ description: A detailed look at how I prototyped data generation to fuel a 700k 
 
 # Data Generation Research Overview
 
-Building BrandPulse meant generating a flood of social media posts—think thousands of "SuperCoffee" tweets per second—to test a system that could handle real-time chaos at scale. This wasn’t about jumping straight to the finish line; it was a grind through prototypes to figure out how to create data fast, reliably, and without crashing my setup. Here’s the story of how I took it from a trickle to a torrent, step by step, laying the groundwork for a system that hits 500,000 posts per second.
+Building BrandPulse meant generating a flood of social media posts—think thousands of "SuperCoffee" tweets per second—to test a system that could handle real-time chaos at scale. This wasn’t about jumping straight to the finish line; it was a grind through prototypes to figure out how to create data fast, reliably, and without crashing my setup. Here’s the story of how I took it from a trickle to a torrent, step by step, laying the groundwork for a system that hits 700,000 posts per second.
 
 ## Purpose and Scope
 The goal was simple but brutal: generate enough realistic posts to simulate a social media storm, then feed them into Kafka for processing. I needed speed, volume, and a touch of real-world flavor—like positive or negative vibes about SuperCoffee—without bogging down Node.js or my machine. These prototypes were my proving ground, where I tested ideas, hit limits, and refined the approach that eventually powered the [final producer](../../producer).

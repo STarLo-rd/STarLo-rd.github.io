@@ -5,7 +5,7 @@ description: How I built a system to handle 700k posts/sec, from gritty prototyp
 
 # Implementation Details: From Scratch to Scale
 
-Here’s where the magic happens—how I took BrandPulse from a twinkle in my eye to a beast cranking 500,000 social media posts per second. I didn’t just slap code together; I wrestled with prototypes, broke stuff, and learned the hard way what works. This section’s got the full scoop—my research, the final setup, and the bruises I picked up along the way.
+Here’s where the magic happens—how I took BrandPulse from a twinkle in my eye to a beast cranking700,000 social media posts per second. I didn’t just slap code together; I wrestled with prototypes, broke stuff, and learned the hard way what works. This section’s got the full scoop—my research, the final setup, and the bruises I picked up along the way.
 
 ## The Journey
 - **[Research Prototypes](./research/data-generation/overview)**: I started with data generation and ingestion experiments—think v0 to v5, grinding from 700 posts/sec to something that could actually hang with the big dogs. Check out [Data Generation](./research/data-generation/overview) and [Data Ingestion](./research/data-ingestion/overview) for the nitty-gritty.

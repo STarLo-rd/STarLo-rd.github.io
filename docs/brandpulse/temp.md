@@ -1,4 +1,4 @@
-Let’s get started on documenting your **Real-Time Brand Monitoring Platform** MVP! We’ll craft a compelling title and create a standard documentation structure that explains everything clearly—perfect for your portfolio and future recruiters. The documentation will cover what we’re building, what it solves, the use cases, technical details, and how it showcases your ability to handle 500,000 requests per second.
+Let’s get started on documenting your **Real-Time Brand Monitoring Platform** MVP! We’ll craft a compelling title and create a standard documentation structure that explains everything clearly—perfect for your portfolio and future recruiters. The documentation will cover what we’re building, what it solves, the use cases, technical details, and how it showcases your ability to handle700,000 requests per second.
 
 ---
 
@@ -31,7 +31,7 @@ Here’s a structured document that explains everything about **BrandPulse**. It
 # BrandPulse: Real-Time Social Media Monitoring at Scale
 
 ## Project Overview
-**BrandPulse** is a real-time brand monitoring platform designed to process and analyze 500,000 social media posts per second, providing instant sentiment insights to help businesses manage their reputation and capitalize on opportunities. Built with Node.js, Kafka, and InfluxDB, this MVP showcases a scalable, high-throughput system that simulates a flood of tweets about a fictional brand (“SuperCoffee”), delivering actionable analytics through a dynamic web dashboard.
+**BrandPulse** is a real-time brand monitoring platform designed to process and analyze700,000 social media posts per second, providing instant sentiment insights to help businesses manage their reputation and capitalize on opportunities. Built with Node.js, Kafka, and InfluxDB, this MVP showcases a scalable, high-throughput system that simulates a flood of tweets about a fictional brand (“SuperCoffee”), delivering actionable analytics through a dynamic web dashboard.
 
 ### Purpose
 This project demonstrates my ability as a system designer to architect and implement a robust, real-time data processing pipeline capable of handling extreme volumes (700k req/sec). It solves a critical business problem—delayed brand sentiment analysis—while offering a compelling portfolio piece for future recruiters.
@@ -86,7 +86,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 ### System Components
 1. **Data Generation**:
    - **Tool**: Node.js with worker threads.
-   - **Function**: Generates 500,000 fake tweets/sec about “SuperCoffee” (e.g., “SuperCoffee rocks!”).
+   - **Function**: Generates700,000 fake tweets/sec about “SuperCoffee” (e.g., “SuperCoffee rocks!”).
    - **Data**: `tweetId` (string), `timestamp` (long), `text` (string), `brand` (string), `sentiment` (string: positive/negative/neutral—rule-based).
    - **Output**: Avro-serialized messages to Kafka (`tweets` topic).
 
