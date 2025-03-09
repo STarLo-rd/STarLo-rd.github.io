@@ -80,7 +80,7 @@ BrandPulse wasn’t a small toy project. I aimed to mimic a social media storm�
 
 ### Metrics Were My Compass
 - **What I Learned**: `monitor.js` gave me eyes—throughput, errors, ETA—without it, I was lost.
-- **The Win**: Spotted a consumer lag at 500k/sec and bumped it to 600k with tweaks.
+- **The Win**: Spotted a consumer lag at 700k/sec and bumped it to 600k with tweaks.
 - **How I Nailed It**: I added rolling averages and worker stats, checking them obsessively.
 - **Key Insight**: No metrics, no mastery—you can’t fix what you can’t see.
 

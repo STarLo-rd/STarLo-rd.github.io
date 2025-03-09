@@ -1,6 +1,6 @@
 ---
 title: BrandPulse - Implementation Details
-description: How I built a system to handle 500K posts/sec, from gritty prototypes to the final beast.
+description: How I built a system to handle 700k posts/sec, from gritty prototypes to the final beast.
 ---
 
 # Implementation Details: From Scratch to Scale
@@ -13,7 +13,7 @@ Here’s where the magic happens—how I took BrandPulse from a twinkle in my ey
 - **[Consumer](./consumer)**: The part that chews through Kafka messages and spits out sentiment.
 - **[Sentiment Analysis](./sentiment-analysis)**: How I figured out if people love or hate SuperCoffee.
 - **[InfluxDB Integration](./influxdb)**: Storing all that data without choking.
-- **[Performance Optimization](./performance)**: Tweaks and tricks to hit 500K/sec.
+- **[Performance Optimization](./performance)**: Tweaks and tricks to hit 700k/sec.
 - **[Issues Faced](./issues-faced)**: The stuff that kept me up at night—and how I fixed it.
 - **[Lessons Learned](./lessons-learned)**: What I’d tell my past self before diving in again.
 

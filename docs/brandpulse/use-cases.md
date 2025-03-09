@@ -14,7 +14,7 @@ I wanted BrandPulse to shine in a demo, so I cooked up a few scenarios using "Su
   
 - **Opportunity Spotting**: Now imagine a wave of love—like “SuperCoffee is life #energize” trending. The pie chart swings to 90% positive, and I can practically hear the marketing team saying, “Let’s amplify this!” It’s all about catching the good vibes quick.
 
-- **Scalability Flex**: This one’s just me showing off. I crank it to 500K tweets a second—way more than any real brand gets—and the dashboard keeps humming along, updating live with no hiccups. It’s my way of saying, “Yeah, this thing can handle anything.”
+- **Scalability Flex**: This one’s just me showing off. I crank it to 700k tweets a second—way more than any real brand gets—and the dashboard keeps humming along, updating live with no hiccups. It’s my way of saying, “Yeah, this thing can handle anything.”
 
 ## Real-World Applications (Where It’d Shine)
 Okay, the demo’s cool, but what about real life? If I hooked BrandPulse up to actual Twitter, Instagram, or YouTube APIs (not just simulated data), here’s where it’d make a difference.
@@ -26,4 +26,4 @@ Okay, the demo’s cool, but what about real life? If I hooked BrandPulse up to 
 - **Competitor Edge**: Imagine RivalCoffee messes up—a product recall or something. BrandPulse catches the chatter (“RivalCoffee’s junk!”) trending negative across platforms. SuperCoffee’s team sees it live and swoops in with a clever counter-move. It’s like having a spy in the social media game.
 
 ## Why This Feels Real
-I didn’t just pull these out of thin air. Social media’s nuts—Twitter’s hit 500K tweets a second during big events ([Hootsuite](https://blog.hootsuite.com/tweets-per-second/)), and brands like Nike or Starbucks deal with millions of mentions daily. BrandPulse is built for that chaos, whether it’s my demo or the real deal.
+I didn’t just pull these out of thin air. Social media’s nuts—Twitter’s hit 700k tweets a second during big events ([Hootsuite](https://blog.hootsuite.com/tweets-per-second/)), and brands like Nike or Starbucks deal with millions of mentions daily. BrandPulse is built for that chaos, whether it’s my demo or the real deal.

@@ -14,14 +14,14 @@ I built BrandPulse to tackle stuff that keeps brand managers up at night. Here�
   
 - **Opportunity Booster**: Picture a hashtag like #SuperEnergize taking off—75% positive vibes across platforms. My dashboard flags it live, so marketing can pour gas on that fire with ads or promos right away. More buzz, more sales, simple as that.
 
-- **Big League Ready**: It handles 500K tweets a second in the demo—way more than most brands see. That means it’s built for the Nikes or Starbucks of the world, not just small fry. Scalability’s baked in, so they don’t outgrow it.
+- **Big League Ready**: It handles 700k tweets a second in the demo—way more than most brands see. That means it’s built for the Nikes or Starbucks of the world, not just small fry. Scalability’s baked in, so they don’t outgrow it.
 
 Social media’s a beast—growing 15% a year through 2030 ([Hootsuite Trends 2025](https://www.hootsuite.com/en-us/social-media-marketing-trends))—and businesses need tools that keep up. BrandPulse isn’t just keeping pace; it’s ahead of the curve.
 
 ## For Me: Portfolio Gold
 This isn’t just about solving a problem—it’s about showing what I can do. Here’s why BrandPulse is a win for me:
 
-- **Tech Chops**: Cranking out 500K requests a second with Node.js, Kafka, and InfluxDB? That’s not kid stuff. It proves I can architect a system that scales like crazy and stays fast under pressure—skills recruiters drool over for data engineering or system design gigs.
+- **Tech Chops**: Cranking out 700k requests a second with Node.js, Kafka, and InfluxDB? That’s not kid stuff. It proves I can architect a system that scales like crazy and stays fast under pressure—skills recruiters drool over for data engineering or system design gigs.
 
 - **Real-World Smarts**: I didn’t build this in a vacuum. It’s tied to a legit issue—brands losing cash from slow monitoring. Showing I can spot a problem and fix it with tech makes me stand out, especially for roles where practical impact matters.
 

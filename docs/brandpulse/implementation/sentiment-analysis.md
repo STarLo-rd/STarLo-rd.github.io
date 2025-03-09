@@ -5,10 +5,10 @@ description: Powering real-time brand insights with flexible sentiment distribut
 
 # Sentiment Analysis: Giving BrandPulse Its Emotional Edge
 
-When I set out to build BrandPulse, I knew sentiment analysis was the heartbeat of the project. It’s not enough to just process 500K posts per second—you’ve got to *understand* what people are saying about "SuperCoffee" in real time. Are they hyped? Pissed off? Meh? That’s where this piece comes in. I didn’t want a one-size-fits-all approach, so I cooked up two distinct modes for generating sentiment in the tweet pool: **Fixed Values** for precision and **High Volatility Random** for chaos. Here’s how I made it happen.
+When I set out to build BrandPulse, I knew sentiment analysis was the heartbeat of the project. It’s not enough to just process 700k posts per second—you’ve got to *understand* what people are saying about "SuperCoffee" in real time. Are they hyped? Pissed off? Meh? That’s where this piece comes in. I didn’t want a one-size-fits-all approach, so I cooked up two distinct modes for generating sentiment in the tweet pool: **Fixed Values** for precision and **High Volatility Random** for chaos. Here’s how I made it happen.
 
 ## The Challenge
-Sentiment isn’t static in the real world. Sometimes you’ve got a steady vibe—like 50% positive chatter about a new coffee blend—and other times it’s a rollercoaster, swinging from love to hate in minutes. I needed BrandPulse to handle both: a controlled setup for testing and a wild, unpredictable mode to mimic real social media storms. Plus, it had to scale without choking on the 500K posts/sec target. No pressure, right?
+Sentiment isn’t static in the real world. Sometimes you’ve got a steady vibe—like 50% positive chatter about a new coffee blend—and other times it’s a rollercoaster, swinging from love to hate in minutes. I needed BrandPulse to handle both: a controlled setup for testing and a wild, unpredictable mode to mimic real social media storms. Plus, it had to scale without choking on the 700k posts/sec target. No pressure, right?
 
 ## The Plan
 I split the sentiment generation into two flavors:
@@ -208,15 +208,15 @@ module.exports = { generateTweetPool, adjustBatchSentiment };
 I added a `MODE` constant in `index.js` to flip between the two. Set it to `"fixed"`, and `generateTweetPool` locks in the user’s percentages. Switch to `"volatile"`, and `adjustBatchSentiment` takes over, scrambling sentiment batch by batch. It’s dead simple but gives me total flexibility—whether I’m demoing a steady state or a social media meltdown.
 
 ## Results
-- **Fixed Mode**: Dead-on accuracy. If I set 50/30/20, I get 50/30/20—every batch, every time. Throughput holds steady at 500K posts/sec with no hiccups.
-- **Volatile Mode**: Wild but workable. Sentiment swings hit extremes (e.g., 85% positive to 5% in back-to-back batches), and the system still churns through 500K/sec. The `volatilityFactor` at 0.8 feels right—chaotic but not cartoonish.
+- **Fixed Mode**: Dead-on accuracy. If I set 50/30/20, I get 50/30/20—every batch, every time. Throughput holds steady at 700k posts/sec with no hiccups.
+- **Volatile Mode**: Wild but workable. Sentiment swings hit extremes (e.g., 85% positive to 5% in back-to-back batches), and the system still churns through 700k/sec. The `volatilityFactor` at 0.8 feels right—chaotic but not cartoonish.
 
 ## Why It Matters
 This isn’t just about slapping sentiment labels on tweets—it’s about making BrandPulse *useful*. Fixed Mode lets brands benchmark their reputation; Volatile Mode shows they can survive a storm. For me, it’s proof I can build something flexible and fast—two birds, one stone. Recruiters want to see real-time systems that solve real problems, and this delivers.
 
 ## Challenges Faced
 - **Balancing Volatility**: Early versions of Volatile Mode were *too* random—batches flipped 100% positive to 100% negative. The `volatilityFactor` tamed it without killing the vibe.
-- **Performance Hit**: Rerolling sentiment in Volatile Mode added a tiny overhead (~1ms per batch). At 500K/sec, that’s negligible, but it’s on my radar for [future tweaks](../future-enhancements).
+- **Performance Hit**: Rerolling sentiment in Volatile Mode added a tiny overhead (~1ms per batch). At 700k/sec, that’s negligible, but it’s on my radar for [future tweaks](../future-enhancements).
 
 ## Next Steps
 This is solid, but I’m not done. I could add a hybrid mode—say, fixed baselines with controlled bursts of volatility—or plug in a real NLP model instead of random assignment. Check out [Future Enhancements](../future-enhancements) for where I’m headed next.

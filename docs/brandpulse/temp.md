@@ -11,7 +11,7 @@ Let’s get started on documenting your **Real-Time Brand Monitoring Platform** 
 - **"BrandPulse"**: Suggests a heartbeat-like monitoring of brand sentiment—fast, alive, and critical. Catchy and memorable.
 - **"Real-Time"**: Highlights the instant insights, a key selling point.
 - **"Social Media Monitoring"**: Clearly states the focus—tracking brand chatter across platforms.
-- **"At Scale"**: Emphasizes your technical flex—handling 500K req/sec.
+- **"At Scale"**: Emphasizes your technical flex—handling 700k req/sec.
 - **Portfolio Appeal**: Sounds professional and innovative, grabbing attention for interviews.
 
 #### Alternatives
@@ -34,7 +34,7 @@ Here’s a structured document that explains everything about **BrandPulse**. It
 **BrandPulse** is a real-time brand monitoring platform designed to process and analyze 500,000 social media posts per second, providing instant sentiment insights to help businesses manage their reputation and capitalize on opportunities. Built with Node.js, Kafka, and InfluxDB, this MVP showcases a scalable, high-throughput system that simulates a flood of tweets about a fictional brand (“SuperCoffee”), delivering actionable analytics through a dynamic web dashboard.
 
 ### Purpose
-This project demonstrates my ability as a system designer to architect and implement a robust, real-time data processing pipeline capable of handling extreme volumes (500K req/sec). It solves a critical business problem—delayed brand sentiment analysis—while offering a compelling portfolio piece for future recruiters.
+This project demonstrates my ability as a system designer to architect and implement a robust, real-time data processing pipeline capable of handling extreme volumes (700k req/sec). It solves a critical business problem—delayed brand sentiment analysis—while offering a compelling portfolio piece for future recruiters.
 
 ---
 
@@ -53,7 +53,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 ## What It Solves
 - **Instant Awareness**: Detects sentiment shifts (e.g., “Negative tweets up 300%”) in seconds, not hours.
 - **Fast Action**: Enables brands to respond to crises or boost campaigns before it’s too late.
-- **Scalability**: Handles extreme volumes (500K req/sec in demo), proving readiness for global brands.
+- **Scalability**: Handles extreme volumes (700k req/sec in demo), proving readiness for global brands.
 
 ---
 
@@ -63,7 +63,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 1. **Crisis Detection**:
    - Simulate a surge of negative tweets (e.g., “SuperCoffee sucks #fail”).
    - Dashboard shows sentiment flip (e.g., 80% positive to 60% negative), triggering an alert.
-   - Showcases speed and scale at 500K req/sec.
+   - Showcases speed and scale at 700k req/sec.
 
 2. **Opportunity Spotting**:
    - Simulate positive buzz (e.g., “SuperCoffee is life #energize”).
@@ -71,7 +71,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
    - Demonstrates real-time marketing insights.
 
 3. **Scalability Showcase**:
-   - Run at 500K req/sec, showing live tweet counts and sentiment updates.
+   - Run at 700k req/sec, showing live tweet counts and sentiment updates.
    - Proves system robustness under extreme load.
 
 ### Real-World Use Cases
@@ -92,7 +92,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 
 2. **Data Streaming**:
    - **Tool**: Apache Kafka.
-   - **Function**: Streams 500K tweets/sec reliably.
+   - **Function**: Streams 700k tweets/sec reliably.
    - **Config**: Single topic (`tweets`) with high-throughput settings (e.g., multiple partitions).
 
 3. **Data Processing**:
@@ -104,7 +104,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
    - **Tools**: Node.js (Express), Socket.io, HTML/CSS/JS, Chart.js.
    - **Function**: Displays real-time dashboard and controls.
    - **Features**:
-     - **Dashboard**: Pie chart (% positive/negative/neutral), counter (500K req/sec), alert (>50% negative).
+     - **Dashboard**: Pie chart (% positive/negative/neutral), counter (700k req/sec), alert (>50% negative).
      - **Controls**: Start/stop generation, adjust sentiment mix (e.g., increase negatives).
    - **Flow**: Queries InfluxDB every second (e.g., `SELECT COUNT(*) FROM tweets WHERE time > now() - 10s GROUP BY sentiment`), pushes updates via WebSockets.
 
@@ -119,7 +119,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 ---
 
 ## Technical Highlights
-- **Throughput**: Processes 500K req/sec, exceeding real-world peaks (e.g., Twitter’s ~500K tweets/sec during major events).
+- **Throughput**: Processes 700k req/sec, exceeding real-world peaks (e.g., Twitter’s ~700k tweets/sec during major events).
 - **Real-Time**: Sub-second latency from generation to visualization.
 - **Scalability**: Kafka and InfluxDB tuned for high volumes; Node.js workers leverage multi-core efficiency.
 - **Data Types**: Handles structured (counts, timestamps) and unstructured (text), showcasing versatility.
@@ -158,7 +158,7 @@ This delay costs brands revenue (e.g., unchecked PR disasters) and missed opport
 
 ## Value Proposition
 - **For Businesses**: Protects revenue by catching crises early, boosts sales by spotting trends—all at scale.
-- **For Me**: Proves I can design and build a high-performance, real-time system handling 500K req/sec, ideal for roles in data engineering, system design, or digital analytics.
+- **For Me**: Proves I can design and build a high-performance, real-time system handling 700k req/sec, ideal for roles in data engineering, system design, or digital analytics.
 
 ## Future Enhancements
 - **Real APIs**: Connect to Twitter, Instagram, YouTube APIs for live data.

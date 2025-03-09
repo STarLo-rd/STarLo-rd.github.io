@@ -1,6 +1,6 @@
 ---
 title: BrandPulse - Data Generation Research Overview
-description: A detailed look at how I prototyped data generation to fuel a 500K posts/sec system.
+description: A detailed look at how I prototyped data generation to fuel a 700k posts/sec system.
 ---
 
 # Data Generation Research Overview

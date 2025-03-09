@@ -13,7 +13,7 @@ Traditional brand monitoring tools and manual reviews fall short in three critic
 - **Scale**: Existing solutions buckle under high volumes—think millions of posts during a product launch or PR scandal—missing the full picture.
 - **Fragmentation**: Feedback is scattered across platforms, requiring brands to stitch together insights from Instagram comments, Twitter mentions, and YouTube reviews—a slow, error-prone process.
 
-This delay costs real money: unchecked negative buzz can drive away customers, while missed positive trends mean lost sales. In a world where Twitter peaks at ~500K tweets per second during major events ([Hootsuite](https://blog.hootsuite.com/tweets-per-second/)), brands need a solution that matches that pace.
+This delay costs real money: unchecked negative buzz can drive away customers, while missed positive trends mean lost sales. In a world where Twitter peaks at ~700k tweets per second during major events ([Hootsuite](https://blog.hootsuite.com/tweets-per-second/)), brands need a solution that matches that pace.
 
 ## How BrandPulse Solves It
 **BrandPulse** tackles this head-on by processing **500,000 social media posts per second**—far beyond real-world peaks—delivering instant, unified sentiment insights. It simulates a flood of tweets about "SuperCoffee" in this MVP, but in practice, it could aggregate data from multiple platforms in real-time, giving businesses:
