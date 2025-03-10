@@ -5,7 +5,7 @@ description: How BrandPulse processes 700k social media posts per second.
 
 # Technical Architecture
 
-Time to peek under the hood of **BrandPulse**—this thing cranks through700,000 tweets a second and turns them into real-time sentiment insights without breaking a sweat. I pieced it together with Node.js, Kafka, and InfluxDB, and here’s how it all flows to handle that kind of madness.
+Time to peek under the hood of **BrandPulse**—this thing cranks through 700,000 tweets a second and turns them into real-time sentiment insights without breaking a sweat. I pieced it together with Node.js, Kafka, and InfluxDB, and here’s how it all flows to handle that kind of madness.
 
 ## The Big Picture
 BrandPulse is like a well-oiled machine: it generates a ton of fake tweets, streams them fast, ingests the data, and throws it up on a dashboard—all live. It’s built to scale up, stay snappy, and not choke when the volume’s insane. Check out the flow:

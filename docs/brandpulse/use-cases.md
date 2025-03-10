@@ -8,7 +8,7 @@ description: Real-world scenarios and demo highlights for BrandPulse.
 So, what’s BrandPulse actually good for? I built it to tackle real problems brands face every day—and to show off what it can do in a demo. Here’s how it plays out, both in my MVP and in the wild.
 
 ## Demo Scenarios (What You’ll See)
-I wanted BrandPulse to shine in a demo, so I cooked up a few scenarios using "SuperCoffee" as my test brand. These run at700,000 tweets per second to flex the system’s muscle.
+I wanted BrandPulse to shine in a demo, so I cooked up a few scenarios using "SuperCoffee" as my test brand. These run at 700,000 tweets per second to flex the system’s muscle.
 
 - **Crisis Detection**: Picture this: everything’s chill, then bam—tons of tweets like “SuperCoffee sucks #fail” start pouring in. The dashboard flips from 80% positive to 60% negative in seconds, and an alert pops up. It’s fast enough to catch a PR nightmare before it spirals, proving the system’s speed at crazy volumes.
   

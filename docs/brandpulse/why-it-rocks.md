@@ -5,7 +5,7 @@ description: What makes BrandPulse a portfolio standout and a lessons goldmine.
 
 # Why It Rocks
 
-Let’s cut to the chase: **BrandPulse** isn’t just another project—it’s a beast that shows what I can do and why it matters. It’s chewing through700,000 tweets a second and spitting out live insights like it’s nothing. Here’s why this thing rocks for businesses, my portfolio, and anyone who digs good tech.
+Let’s cut to the chase: **BrandPulse** isn’t just another project—it’s a beast that shows what I can do and why it matters. It’s chewing through 700,000 tweets a second and spitting out live insights like it’s nothing. Here’s why this thing rocks for businesses, my portfolio, and anyone who digs good tech.
 
 ## The Wow Factor
 - **Sheer Scale**: 700k requests a second? That’s nuts—Twitter only hits that during Super Bowl-level chaos. I built it to flex that kind of muscle, proving it can handle anything a global brand throws at it. Demo it live, and jaws drop—pie chart flipping, alerts popping, all at warp speed.

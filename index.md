@@ -18,7 +18,7 @@ features:
     details: A high-performance URL shortener built with Node.js, PostgreSQL, and Redis. It’s designed to handle heavy traffic with smart caching and cost-efficient scaling.
     link: /docs/zeroRPM/
   - title: BrandPulse
-    details: A real-time brand monitoring platform processing 500K social media posts per second, delivering instant sentiment insights using Node.js, Kafka, and InfluxDB.
+    details: A real-time brand monitoring platform processing 700K social media posts per second, delivering instant sentiment insights using Node.js, Kafka, and InfluxDB.
     link: /docs/brandpulse/
   - title: Coming Soon
     details: Stay tuned for more projects—big ideas in the works tackling data, scale, and real-world impact.
