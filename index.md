@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: projects
-      link: /
+      link: /projects.md
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
@@ -20,6 +20,7 @@ features:
   - title: BrandPulse
     details: A real-time brand monitoring platform processing 700K social media posts per second, delivering instant sentiment insights using Node.js, Kafka, and InfluxDB.
     link: /docs/brandpulse/
-  - title: Coming Soon
-    details: Stay tuned for more projects—big ideas in the works tackling data, scale, and real-world impact.
+  - title: Attestify
+    details: A TypeScript SDK ecosystem for cryptographically secure payment commitments, leveraging HD wallets, secp256k1 signatures, and a RESTful backend with MongoDB. Scales trust for finance and beyond.
+    link: /docs/attestify/
 ---

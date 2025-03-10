@@ -12,7 +12,8 @@ export default defineConfig({
         text: 'Projects', 
         items: [
           { text: 'QuickLinker-ZeroRPM', link: '/docs/zeroRPM/' },
-          { text: 'BrandPulse', link: '/docs/brandpulse/' }
+          { text: 'BrandPulse', link: '/docs/brandpulse/' },
+          { text: 'Attestify', link: '/docs/attestify/' }
         ]
       }
     ],
@@ -32,7 +33,7 @@ export default defineConfig({
         }
       ],
       
-      // Sidebar for BrandPulse project (updated)
+      // Sidebar for BrandPulse project
       '/docs/brandpulse/': [
         {
           text: 'BrandPulse',
@@ -86,6 +87,19 @@ export default defineConfig({
         }
       ],
 
+      // Sidebar for Attestation SDK (new)
+      '/docs/attestify/': [
+        {
+          text: 'Attestation SDK',
+          items: [
+            { text: 'Overview', link: '/docs/attestify/' },
+            { text: 'Technical Architecture', link: '/docs/attestify/tech-architecture' },
+            { text: 'Use Cases', link: '/docs/attestify/usecases' },
+            { text: 'Implementation', link: '/docs/attestify/implementation' },
+            { text: 'Demo', link: '/docs/attestify/demo' }
+          ]
+        }
+      ],
       // Sidebar for root (unchanged)
       '/': [
         {
