@@ -21,16 +21,45 @@ export default defineConfig({
     // Sidebar for specific sections
     sidebar: {
       // Sidebar for ZeroRPM project (unchanged)
-      '/docs/zeroRPM/': [
+      '/docs/quicklinker-zeroRPM/': [
         {
           text: 'QuickLinker-ZeroRPM',
+          link: "/docs/quicklinker-zeroRPM",
           items: [
-            { text: 'Overview', link: '/docs/zeroRPM/' },
-            { text: 'Phase 1', link: '/docs/zeroRPM/phases/phase1' },
-            { text: 'Phase 2', link: '/docs/zeroRPM/phases/phase2' },
-            { text: 'Phase 3', link: '/docs/zeroRPM/phases/phase3' }
-          ]
-        }
+            { text: 'Overview', link: '/docs/quicklinker-zeroRPM/overview.md' },
+            {
+              text: 'Project Details',
+              collapsed: false, // Open by default; set to true to collapse initially
+              items: [
+                { text: 'Introduction', link: '/docs/quicklinker-zeroRPM/project-overview/introduction' },
+                { text: 'Core Goals', link: '/docs/quicklinker-zeroRPM/project-overview/core-goals' },
+                { text: 'Roadmap', link: '/docs/quicklinker-zeroRPM/project-overview/roadmap' },
+              ],
+            },
+            {
+              text: 'Technical Architecture',
+              collapsed: false,
+              items: [
+                { text: 'Phase 1: Minimum Viable Scaling', link: '/docs/quicklinker-zeroRPM/technical-architecture/phase-1' },
+                { text: 'Phase 2: Analytics Pipeline', link: '/docs/quicklinker-zeroRPM/technical-architecture/phase-2' },
+                { text: 'Phase 3: Resilience Engineering', link: '/docs/quicklinker-zeroRPM/technical-architecture/phase-3' },
+                { text: 'Database Comparison', link: '/docs/quicklinker-zeroRPM/technical-architecture/database-comparison' },
+                { text: 'Hosting Options', link: '/docs/quicklinker-zeroRPM/technical-architecture/hosting-options' },
+              ],
+            },
+            {
+              text: 'Findings',
+              collapsed: false,
+              items: [
+                { text: 'Feasibility Analysis', link: '/docs/quicklinker-zeroRPM/findings/feasibility' },
+                { text: 'Cost Analysis', link: '/docs/quicklinker-zeroRPM/findings/cost-analysis' },
+                { text: 'SQLite & LiteFS Insights', link: '/docs/quicklinker-zeroRPM/findings/sqlite-litefs' },
+                { text: 'Free Hosting', link: '/docs/quicklinker-zeroRPM/findings/free-hosting' },
+              ],
+            },
+            { text: 'References', link: '/docs/quicklinker-zeroRPM/references' },
+          ],
+        },
       ],
       
       // Sidebar for BrandPulse project
