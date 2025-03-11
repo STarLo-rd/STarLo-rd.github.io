@@ -66,9 +66,9 @@ I started with PostgreSQL ‘cause it’s safe and simple—got me to 100 req/s 
 
 ## What’s Next?
 
-- **[Phase 1](/quicklinker-zerorpm/technical-architecture/phase-1)**: Where PostgreSQL hands off to SQLite.
-- **[SQLite + LiteFS](/quicklinker-zerorpm/findings/sqlite-litefs)**: Deep dive on the duo.
-- **[References](/quicklinker-zerorpm/references)**: The dirt I dug up.
+- **[Phase 1](../technical-architecture/phase-1/)**: Where PostgreSQL hands off to SQLite.
+- **[SQLite + LiteFS](../findings/sqlite-litefs.md)**: Deep dive on the duo.
+- **[References](../index.md)**: The dirt I dug up.
 
 ---
 *Last Updated: March 11, 2025*

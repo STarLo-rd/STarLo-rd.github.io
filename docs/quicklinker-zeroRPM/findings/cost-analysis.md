@@ -88,8 +88,8 @@ This analysis confirms SQLite as the cost-efficient backbone, with LiteFS poised
 ## Next Steps
 
 See how this plays out in:
-- **[Phase 1](/quicklinker-zerorpm/technical-architecture/phase-1)**: SQLite implementation.
-- **[References](/quicklinker-zerorpm/references)**: Cited resources.
+- **[Phase 1](../technical-architecture/phase-1/)**: SQLite implementation.
+- **[References](../index.md)**: Cited resources.
 
 ---
 *Last Updated: March 11, 2025*

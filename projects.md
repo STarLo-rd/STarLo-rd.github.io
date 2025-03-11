@@ -35,7 +35,7 @@ Dive into my project portfolio! Below, I’ve organized my creations into System
   - Cuts costs with lightweight, efficient tech.  
   - Scales infinitely to meet massive demand.  
   - Proves simplicity can power enterprise solutions.  
-  [**Explore →**](/docs/zeroRPM/)
+  [**Explore →**](/docs/quicklinker-zeroRPM/)
 
 - *(+9 more system designs in progress—watch this space!)*
 

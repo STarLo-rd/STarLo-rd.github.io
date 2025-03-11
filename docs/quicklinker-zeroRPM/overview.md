@@ -55,10 +55,10 @@ SQLite, paired with LiteFS for replication, aligns with the project’s cost-per
 ## Navigation
 
 Dive deeper:
-- **[Project Details](/quicklinker-zerorpm/project-overview/introduction)**: Explore motivation and goals.
-- **[Technical Architecture](/quicklinker-zerorpm/technical-architecture/phase-1)**: Review phased implementation.
-- **[Findings](/quicklinker-zerorpm/findings/feasibility)**: See research insights.
-- **[References](/quicklinker-zerorpm/references)**: Cited resources.
+- **[Project Details](./project-overview/introduction.md)**: Explore motivation and goals.
+- **[Technical Architecture](./technical-architecture/phase-1/)**: Review phased implementation.
+- **[Findings](./findings/feasibility.md)**: See research insights.
+- **[References](index.md)**: Cited resources.
 
 ## Get Involved
 

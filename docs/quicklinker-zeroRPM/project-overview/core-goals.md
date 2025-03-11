@@ -73,11 +73,11 @@ This goal empowers engineers with practical, transferable skills, bridging acade
 ## Next Steps
 
 These goals unfold across phases:
-- **[Phase 1](/quicklinker-zerorpm/technical-architecture/phase-1)**: Cost-efficient scaling to 100 req/s with SQLite.
-- **[Phase 2](/quicklinker-zerorpm/technical-architecture/phase-2)**: Scalable analytics with Kafka.
-- **[Phase 3](/quicklinker-zerorpm/technical-architecture/phase-3)**: Reliable multi-node resilience.
+- **[Phase 1](../technical-architecture/phase-1/)**: Cost-efficient scaling to 100 req/s with SQLite.
+- **[Phase 2](../technical-architecture/phase-2/)**: Scalable analytics with Kafka.
+- **[Phase 3](../technical-architecture/phase-3/)**: Reliable multi-node resilience.
 
-Explore the [Technical Architecture](/quicklinker-zerorpm/technical-architecture/phase-1) for how these goals come to life.
+Explore the [Technical Architecture](../technical-architecture/phase-1/) for how these goals come to life.
 
 ---
 *Last Updated: March 11, 2025*

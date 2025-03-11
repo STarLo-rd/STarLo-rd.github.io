@@ -53,11 +53,11 @@ These findings validate Phase 1’s approach, setting the stage for deeper techn
 ## Next Steps
 
 This project unfolds in phases:
-- **[Phase 1: Minimum Viable Scaling](/quicklinker-zerorpm/technical-architecture/phase-1)**: Establish the core with PostgreSQL, then SQLite, targeting 100 req/s.
-- **[Phase 2: Analytics Pipeline](/quicklinker-zerorpm/technical-architecture/phase-2)**: Integrate Kafka and TimescaleDB for insights.
-- **[Phase 3: Resilience Engineering](/quicklinker-zerorpm/technical-architecture/phase-3)**: Enhance uptime with LiteFS and chaos testing.
+- **[Phase 1: Minimum Viable Scaling](../technical-architecture/phase-1/)**: Establish the core with PostgreSQL, then SQLite, targeting 100 req/s.
+- **[Phase 2: Analytics Pipeline](../technical-architecture/phase-2/)**: Integrate Kafka and TimescaleDB for insights.
+- **[Phase 3: Resilience Engineering](../technical-architecture/phase-3/)**: Enhance uptime with LiteFS and chaos testing.
 
-Continue to [Technical Architecture](/quicklinker-zerorpm/technical-architecture/phase-1) for implementation details.
+Continue to [Technical Architecture](../technical-architecture/phase-1/) for implementation details.
 
 ---
 *Last Updated: March 11, 2025*

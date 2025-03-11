@@ -53,9 +53,9 @@ This combo nails it—100,000 RPM, $0 cost, 99.9% uptime. SQLite’s fast enough
 
 ## What’s Next?
 
-- **[Phase 1](/quicklinker-zerorpm/technical-architecture/phase-1)**: How I kick this off with SQLite.
-- **[Cost Analysis](/quicklinker-zerorpm/findings/cost-analysis)**: More on the $0 magic.
-- **[References](/quicklinker-zerorpm/references)**: Where I got the goods.
+- **[Phase 1](../technical-architecture/phase-1/)**: How I kick this off with SQLite.
+- **[Cost Analysis](./cost-analysis.md)**: More on the $0 magic.
+- **[References](../index.md)**: Where I got the goods.
 
 ---
 *Last Updated: March 11, 2025*
