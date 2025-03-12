@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* Scope everything under .resume-page */
+.resume-page {
+  --bg-color: var(--vp-c-bg, #ffffff);
+  --text-color: var(--vp-c-text-1, #2c3e50);
+  --header-color: var(--vp-c-text-1, #1a1a1a);
+  --title-color: var(--vp-c-text-2, #7f8c8d);
+  --section-border: var(--vp-c-divider, #e0e0e0);
+  --link-color: var(--vp-c-brand, #3498db);
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark .resume-page {
+  --bg-color: var(--vp-c-bg, #1e1e1e);
+  --text-color: var(--vp-c-text-1, #e0e0e0);
+  --header-color: var(--vp-c-text-1, #ffffff);
+  --title-color: var(--vp-c-text-2, #bdc3c7);
+  --section-border: var(--vp-c-divider, #444);
+  --link-color: var(--vp-c-brand, #66b3ff);
+  --shadow-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Ensure full width when sidebar is disabled */
+.resume-page .resume {
+  max-width: 1000px;
+  width: 100%; /* Stretch to full width */
+  margin: 3rem auto;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-color);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px var(--shadow-color);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Override VitePress container padding */
+.resume-page {
+  padding: 0 1rem; /* Minimal padding for mobile */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.resume-page .resume-header {
+  position: relative;
+  text-align: center;
+  padding: 4rem 1rem 3rem;
+  background: linear-gradient(135deg, var(--link-color) 0%, #2980b9 100%);
+  color: #ffffff;
+  border-radius: 16px 16px 0 0;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+}
+
+.resume-page .resume-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.resume-page .resume-header h1 {
+  font-size: 3.25rem;
+  font-weight: 800;
+  margin: 0;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.resume-page .title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 1rem 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 2;
+}
+
+.resume-page section {
+  background: var(--bg-color);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px var(--shadow-color);
+  margin-bottom: 3rem;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid var(--link-color);
+}
+
+.resume-page section:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px var(--shadow-color);
+}
+
+.resume-page h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--link-color);
+  margin-bottom: 1.75rem;
+  position: relative;
+}
+
+.resume-page h2::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(to right, var(--link-color), transparent);
+}
+
+.resume-page .contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: start;
+  padding: 1rem 0;
+}
+
+.resume-page .contact p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.resume-page .contact p:hover {
+  color: var(--link-color);
+}
+
+.resume-page .contact i {
+  color: var(--link-color);
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+.resume-page .contact .label {
+  font-weight: 600;
+  color: var(--header-color);
+  margin-right: 0.75rem;
+}
+
+.resume-page .contact a {
+  color: var(--link-color);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.resume-page .contact a:hover {
+  text-decoration: underline;
+}
+
+.resume-page .skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-page .skills-list li {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  word-wrap: break-word;
+}
+
+.resume-page .skills-list li strong {
+  color: var(--header-color);
+  font-weight: 600;
+}
+
+.resume-page .experience-item, 
+.resume-page .project-item, 
+.resume-page .education-item {
+  margin-bottom: 2.5rem;
+}
+
+.resume-page .experience-item h3, 
+.resume-page .project-item h3, 
+.resume-page .education-item h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--header-color);
+  margin: 0;
+}
+
+.resume-page .role {
+  font-style: italic;
+  color: var(--title-color);
+  margin: 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.resume-page ul {
+  padding-left: 1.75rem;
+}
+
+.resume-page li {
+  margin: 0.85rem 0;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.resume-page .download-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--vp-c-brand, #3498db);
+  color: var(--vp-c-text-light-1, #fff);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resume-page .download-btn:hover {
+  transform: translateY(-3px);
+  background: var(--vp-c-brand-dark, #2980b9);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dark .resume-page .download-btn {
+  background: var(--vp-c-brand, #66b3ff);
+  color: var(--vp-c-text-dark-1, #fff);
+}
+
+.dark .resume-page .download-btn:hover {
+  background: var(--vp-c-brand-dark, #4a90e2);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
+}
+
+/* Tablet Responsiveness (up to 768px) */
+@media (max-width: 768px) {
+  .resume-page .resume {
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .resume-page .resume-header {
+    padding: 3rem 1rem;
+  }
+
+  .resume-page .resume-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .resume-page .title {
+    font-size: 1.4rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .resume-page section {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+
+  .resume-page h2 {
+    font-size: 1.75rem;
+  }
+
+  .resume-page h2::after {
+    width: 50px;
+  }
+
+  .resume-page .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 0.75rem 0;
+  }
+
+  .resume-page .contact p {
+    font-size: 1.05rem;
+  }
+
+  .resume-page .contact i {
+    font-size: 1.2rem;
+    margin-right: 0.75rem;
+  }
+
+  .resume-page .skills-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .resume-page .skills-list li {
+    font-size: 1rem;
+  }
+
+  .resume-page .experience-item h3, 
+  .resume-page .project-item h3, 
+  .resume-page .education-item h3 {
+    font-size: 1.35rem;
+  }
+
+  .resume-page .role {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .resume-page ul {
+    padding-left: 1.5rem;
+  }
+
+  .resume-page li {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0.75rem 0;
+  }
+
+  .resume-page .download-btn {
+    padding: 0.85rem 1.75rem;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Responsiveness (up to 480px) */
+@media (max-width: 480px) {
+  .resume-page .resume {
+    margin: 1rem 0.5rem;
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+
+  .resume-page .resume-header {
+    padding: 2rem 0.75rem;
+  }
+
+  .resume-page .resume-header h1 {
+    font-size: 2rem;
+  }
+
+  .resume-page .title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 0;
+  }
+
+  .resume-page section {
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    border-left-width: 3px;
+  }
+
+  .resume-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .resume-page h2::after {
+    width: 40px;
+    height: 3px;
+  }
+
+  .resume-page .contact-grid {
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .resume-page .contact p {
+    font-size: 0.95rem;
+  }
+
+  .resume-page .contact i {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+  }
+
+  .resume-page .skills-list li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .resume-page .experience-item h3, 
+  .resume-page .project-item h3, 
+  .resume-page .education-item h3 {
+    font-size: 1.25rem;
+  }
+
+  .resume-page .role {
+    font-size: 0.9rem;
+  }
+
+  .resume-page ul {
+    padding-left: 1.25rem;
+  }
+
+  .resume-page li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0.6rem 0;
+  }
+
+  .resume-page .download-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
+    border-radius: 6px;
+  }
+}

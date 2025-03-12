@@ -15,7 +15,8 @@ export default defineConfig({
           { text: 'BrandPulse', link: '/docs/brandpulse/' },
           { text: 'Attestify', link: '/docs/attestify/' }
         ]
-      }
+      },
+      { text: 'Resume', link: '/resume' },
     ],
 
     // Sidebar for specific sections
@@ -140,6 +141,7 @@ export default defineConfig({
         }
       ]
     },
+    theme: './theme/index.js',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/STarLo-rd' }
