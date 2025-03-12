@@ -2,6 +2,7 @@
 layout: doc
 sidebar: false
 ---
+
 <div class="resume-page">
   <div class="resume">
     <header class="resume-header">
@@ -40,15 +41,25 @@ sidebar: false
           <h3>Optisol, India</h3>
           <p class="role">Software Engineer • Coimbatore, India • 02/2025 - Present</p>
           <ul>
-            <li>Details TBD.</li>
+            <li>[Details - once available.]</li>
           </ul>
         </div>
         <div class="experience-item">
           <h3>Clar Technologies, India</h3>
           <p class="role">Software Engineer • Coimbatore, India • 06/2023 - 02/2025</p>
           <ul>
-            <li>Collaborated with a multinational team to build blockchain solutions for deep-tier financing, asset tokenization, and inventory tracking, cutting transaction costs by 80% via Layer 2.</li>
-            <li>Developed full-stack supply chain finance solutions with DLPC systems, enabling secure, tokenized global trade transactions.</li>
+            <li>Collaborated with a multinational team to build solutions for deep-tier financing, real-world asset tokenization, and inventory tracking using enterprise blockchain technology, reducing transaction costs by 80% through the adoption of Layer 2 solutions.</li>
+            <li>Engineered and deployed full-stack blockchain solutions for supply chain finance, including DLPC (Digital Ledger Payment Commitment) systems, enabling secure, tokenized financial transactions across global trade ecosystems.</li>
+            <li>Collaborated on a blockchain-powered application for a Fortune 50 tech company in support of a habitat restoration project in the United States, ensuring transparency and efficiency.</li>
+            <li>Designed and optimized scalable backend architectures using Node.js and ExpressJS, integrating RESTful APIs for efficient event handling and secure authentication.</li>
+            <li>Designed responsive UIs for a complex financial dashboard using ReactJS, Redux, and Shadcn UI, implementing a modular architecture to improve maintainability, enhance component loading, and boost performance, resulting in a 40% reduction in page load times.</li>
+            <li>Streamlined development by creating reusable Axios API modules, modular UI components, and state management solutions, enabling faster future enhancements.</li>
+            <li>Integrated Redis caching and asynchronous data processing into backend systems, achieving a 35% improvement in API response times.</li>
+            <li>Implemented secure mnemonic isolation frameworks with AWS Lambda and Secrets Manager, safeguarding cryptographic keys and enabling reliable transaction signing for blockchain-based operations.</li>
+            <li>Developed an SDK and Node CLI to facilitate seamless communication and collaboration between backend systems and blockchain technologies, increasing code maintainability by 60% and improving system interoperability.</li>
+            <li>Established automated CI/CD pipelines using Jenkins and Docker, reducing deployment time by 70% and eliminating manual errors.</li>
+            <li>Engineered a developer-focused chatbot UI utilizing Pinecone as a vector database to train the model, simplifying platform integration for external developers by 80%.</li>
+            <li>Championed unit test health maintenance, leading to a 70% test coverage, significantly improving system reliability and code quality.</li>
           </ul>
         </div>
       </div>
