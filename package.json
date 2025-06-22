@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "terser": "^5.43.1",
     "vitepress": "^1.6.3"
   }
 }

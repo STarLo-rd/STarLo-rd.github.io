@@ -2,9 +2,14 @@
 import DefaultTheme from 'vitepress/theme';
 import './custom.css'; // Import your custom CSS
 import "./resume.css"
+import Layout from './Layout.vue'
+import IronManProjects from './components/IronManProjects.vue'
+
 export default {
-  ...DefaultTheme,
+  extends: DefaultTheme,
+  Layout,
   enhanceApp({ app }) {
-    // Optional: Add custom Vue components or logic here if needed
+    // Add any custom Vue components or global functionality here
+    app.component('IronManProjects', IronManProjects)
   },
 };

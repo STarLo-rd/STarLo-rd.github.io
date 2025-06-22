@@ -16,7 +16,7 @@ sidebar: false
         <p><i class="fas fa-link"></i> <span class="label">LinkedIn:</span> <a href="https://www.linkedin.com/in/mohanpathi" target="_blank">linkedin.com/in/mohanpathi</a></p>
         <p><i class="fas fa-envelope"></i> <span class="label">Email:</span> <a href="mailto:mohanpathi.dev@gmail.com">mohanpathi.dev@gmail.com</a></p>
         <p><i class="fas fa-map-marker-alt"></i> <span class="label">Location:</span> Coimbatore, India</p>
-        <p><i class="fab fa-github"></i> <span class="label">GitHub:</span> <a href="https://github.com/mohanpathi" target="_blank">github.com/mohanpathi</a></p>
+        <p><i class="fab fa-github"></i> <span class="label">GitHub:</span> <a href="https://github.com/STarLo-rd" target="_blank">github.com/STarLo-rd</a></p>
       </div>
     </section>
     <section class="summary">

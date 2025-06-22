@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap.xml
+
+# Priority pages
+Allow: /projects
+Allow: /resume
+Allow: /docs/quicklinker-zeroRPM/
+Allow: /docs/brandpulse/
+Allow: /docs/attestify/
+
+# Block unnecessary files
+Disallow: /.vitepress/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.lock$ 

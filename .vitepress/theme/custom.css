@@ -1,0 +1,537 @@
+/* Iron Man Inspired Theme - Clean & Professional */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+/* CSS Variables - Iron Man Color Palette */
+:root {
+  /* Primary Brand Colors - Iron Man Red & Gold */
+  --vp-c-brand-1: #dc2626;
+  --vp-c-brand-2: #b91c1c;
+  --vp-c-brand-3: #991b1b;
+  --vp-c-brand-soft: rgba(220, 38, 38, 0.14);
+  --vp-c-brand-softer: rgba(220, 38, 38, 0.07);
+  --vp-c-brand-softest: rgba(220, 38, 38, 0.04);
+
+  /* Accent Colors - Arc Reactor Blue & Gold */
+  --vp-c-accent-1: #3b82f6;
+  --vp-c-accent-2: #2563eb;
+  --vp-c-gold-1: #f59e0b;
+  --vp-c-gold-2: #d97706;
+
+  /* Background Colors - Dark Tech Theme */
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-elv: #1a1a1a;
+  --vp-c-bg-soft: #1f1f1f;
+  --vp-c-bg-softer: #262626;
+  --vp-c-bg-mute: #2d2d2d;
+
+  /* Text Colors */
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #e5e5e5;
+  --vp-c-text-3: #a3a3a3;
+  --vp-c-text-code: #f59e0b;
+
+  /* Border Colors */
+  --vp-c-border: #333333;
+  --vp-c-divider: #404040;
+  --vp-c-gutter: #262626;
+
+  /* Component Colors */
+  --vp-c-default-1: #1f1f1f;
+  --vp-c-default-2: #2d2d2d;
+  --vp-c-default-3: #404040;
+  --vp-c-default-soft: rgba(255, 255, 255, 0.04);
+
+  /* Typography */
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+
+  /* Shadows - Arc Reactor Glow Effects */
+  --vp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --vp-shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07);
+  --vp-shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1);
+  --vp-shadow-4: 0 14px 44px rgba(0, 0, 0, 0.12);
+  --vp-shadow-5: 0 18px 56px rgba(0, 0, 0, 0.16);
+  --vp-glow-brand: 0 0 20px rgba(220, 38, 38, 0.3);
+  --vp-glow-accent: 0 0 20px rgba(59, 130, 246, 0.3);
+
+  /* Z-index */
+  --vp-z-index-footer: 10;
+  --vp-z-index-local-nav: 20;
+  --vp-z-index-nav: 30;
+  --vp-z-index-layout-top: 40;
+  --vp-z-index-backdrop: 50;
+  --vp-z-index-sidebar: 60;
+
+  /* Layouts */
+  --vp-layout-max-width: 1440px;
+}
+
+/* Light Mode Theme */
+html:not(.dark) {
+  /* Brand colors remain consistent */
+  --vp-c-brand-1: #dc2626;
+  --vp-c-brand-2: #b91c1c;
+  --vp-c-brand-3: #991b1b;
+  --vp-c-brand-soft: rgba(220, 38, 38, 0.14);
+  --vp-c-brand-softer: rgba(220, 38, 38, 0.07);
+  --vp-c-brand-softest: rgba(220, 38, 38, 0.04);
+
+  /* Accent Colors */
+  --vp-c-accent-1: #3b82f6;
+  --vp-c-accent-2: #2563eb;
+  --vp-c-gold-1: #f59e0b;
+  --vp-c-gold-2: #d97706;
+
+  /* Light Theme Backgrounds */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #f1f5f9;
+  --vp-c-bg-soft: #e2e8f0;
+  --vp-c-bg-softer: #cbd5e1;
+  --vp-c-bg-mute: #94a3b8;
+
+  /* Light Theme Text Colors */
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748b;
+  --vp-c-text-code: #dc2626;
+
+  /* Light Theme Borders */
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #cbd5e1;
+  --vp-c-gutter: #f1f5f9;
+
+  /* Light Theme Components */
+  --vp-c-default-1: #f8fafc;
+  --vp-c-default-2: #f1f5f9;
+  --vp-c-default-3: #e2e8f0;
+  --vp-c-default-soft: rgba(0, 0, 0, 0.04);
+
+  /* Light Theme Shadows */
+  --vp-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --vp-shadow-2: 0 3px 12px rgba(0, 0, 0, 0.07);
+  --vp-shadow-3: 0 12px 32px rgba(0, 0, 0, 0.1);
+  --vp-shadow-4: 0 14px 44px rgba(0, 0, 0, 0.12);
+  --vp-shadow-5: 0 18px 56px rgba(0, 0, 0, 0.16);
+  --vp-glow-brand: 0 0 20px rgba(220, 38, 38, 0.2);
+  --vp-glow-accent: 0 0 20px rgba(59, 130, 246, 0.2);
+}
+
+/* Dark Mode Adjustments */
+.dark {
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-elv: #1a1a1a;
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-family: var(--vp-font-family-base);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Clean body backgrounds */
+.dark body {
+  background: #0a0a0a;
+}
+
+html:not(.dark) body {
+  background: #ffffff;
+}
+
+/* Navigation Bar Styling - Fixed for both themes */
+.VPNav {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--vp-c-border);
+  box-shadow: var(--vp-shadow-2);
+  transition: all 0.3s ease;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--vp-z-index-nav);
+}
+
+/* Dark theme navigation */
+.dark .VPNav {
+  background: rgba(10, 10, 10, 0.95) !important;
+  border-bottom-color: #333333;
+}
+
+/* Light theme navigation */
+html:not(.dark) .VPNav {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-bottom-color: #e2e8f0;
+}
+
+.VPNavBar {
+  background: transparent !important;
+}
+
+.VPNavBarTitle .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPNavBarMenuLink {
+  color: var(--vp-c-text-2) !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1) !important;
+  font-weight: 600;
+}
+
+/* Dark/Light mode toggle button */
+.VPSwitchAppearance {
+  color: var(--vp-c-text-2) !important;
+}
+
+.dark .VPSwitchAppearance {
+  color: #e5e5e5 !important;
+}
+
+html:not(.dark) .VPSwitchAppearance {
+  color: #334155 !important;
+}
+
+/* Hero Section */
+.VPHero {
+  padding-top: 120px !important; /* Account for fixed nav */
+}
+
+.VPHeroInfo .name {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  text-shadow: var(--vp-glow-brand);
+}
+
+.VPHeroInfo .text {
+  color: var(--vp-c-text-2);
+  font-size: 1.25rem;
+}
+
+.VPHeroInfo .tagline {
+  color: var(--vp-c-text-3);
+  font-size: 1.125rem;
+}
+
+/* Button Styling */
+.VPButton {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VPButton.brand {
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  color: white;
+}
+
+.VPButton.brand:hover {
+  box-shadow: var(--vp-glow-brand);
+  transform: translateY(-2px);
+}
+
+.VPButton.alt {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-border);
+}
+
+.VPButton.alt:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+/* Features Grid */
+.VPFeatures {
+  background: transparent;
+  padding: 2rem 0;
+}
+
+.VPFeature {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: var(--vp-glow-brand);
+  transform: translateY(-4px);
+}
+
+.VPFeature .title {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.VPFeature .details {
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+/* Sidebar Styling */
+.VPSidebar {
+  background: var(--vp-c-bg-alt);
+  border-right: 1px solid var(--vp-c-border);
+}
+
+.dark .VPSidebar {
+  background: #111111;
+}
+
+.VPSidebarItem .text {
+  color: var(--vp-c-text-2);
+  transition: color 0.3s ease;
+}
+
+.VPSidebarItem:hover .text {
+  color: var(--vp-c-brand-1);
+}
+
+.VPSidebarItem.is-active .text {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+/* Content Styling */
+.VPContent {
+  background: var(--vp-c-bg);
+}
+
+.VPDoc {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
+.VPDoc h1 {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+  border-bottom: 2px solid var(--vp-c-brand-1);
+  padding-bottom: 0.5rem;
+  text-shadow: var(--vp-glow-brand);
+}
+
+.VPDoc h2 {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+.VPDoc h3 {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.VPDoc p {
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+}
+
+.VPDoc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.VPDoc a:hover {
+  text-decoration: underline;
+  text-shadow: var(--vp-glow-brand);
+}
+
+.VPDoc pre {
+  background: var(--vp-c-bg-mute);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: var(--vp-font-family-mono);
+  box-shadow: var(--vp-shadow-2);
+}
+
+.VPDoc code {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-code);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.875rem;
+  border: 1px solid var(--vp-c-border);
+}
+
+.VPDoc table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--vp-shadow-2);
+}
+
+.VPDoc th,
+.VPDoc td {
+  border: 1px solid var(--vp-c-border);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.VPDoc th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.VPDoc td {
+  color: var(--vp-c-text-2);
+}
+
+.VPDoc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+  box-shadow: var(--vp-shadow-1);
+}
+
+.VPDoc blockquote p {
+  color: var(--vp-c-text-1);
+  font-style: italic;
+}
+
+.VPDoc ul,
+.VPDoc ol {
+  color: var(--vp-c-text-2);
+  padding-left: 1.5rem;
+}
+
+.VPDoc li {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+/* Footer Styling */
+.VPFooter {
+  background: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-border);
+  padding: 2rem 0;
+}
+
+.VPFooter .message {
+  color: var(--vp-c-text-2);
+}
+
+.VPFooter .copyright {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .VPHero {
+    padding-top: 100px !important;
+  }
+
+  .VPHeroInfo .name {
+    font-size: 2rem;
+  }
+
+  .VPHeroInfo .text {
+    font-size: 1.125rem;
+  }
+
+  .VPFeature {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-mute);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-2);
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-text-1);
+}
+
+/* Focus Styling */
+:focus {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Utility Classes */
+.text-gradient {
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-gold-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
