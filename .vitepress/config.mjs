@@ -27,8 +27,8 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'Mohanpathi Portfolio' }],
     ['meta', { property: 'og:title', content: 'Mohanpathi | System Architect & Full-Stack Engineer' }],
     ['meta', { property: 'og:description', content: 'Expert System Architect specializing in scalable systems, real-time data processing, and enterprise-grade solutions. Featured projects: QuickLinker-ZeroRPM, BrandPulse, Chainly SDK, Distributed Abuse Detection, Attestify.' }],
-    ['meta', { property: 'og:url', content: 'https://starlo-rd.github.io/my-portfolio/' }],
-    ['meta', { property: 'og:image', content: 'https://starlo-rd.github.io/my-portfolio/og-image.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://starlo-rd.github.io/' }],
+    ['meta', { property: 'og:image', content: 'https://starlo-rd.github.io/og-image.jpg' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { property: 'og:image:alt', content: 'Mohanpathi - System Architect Portfolio' }],
@@ -39,7 +39,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:creator', content: '@mohanpathi' }],
     ['meta', { name: 'twitter:title', content: 'Mohanpathi | System Architect & Full-Stack Engineer' }],
     ['meta', { name: 'twitter:description', content: 'Expert System Architect specializing in scalable systems, real-time data processing, and enterprise-grade solutions.' }],
-    ['meta', { name: 'twitter:image', content: 'https://starlo-rd.github.io/my-portfolio/og-image.jpg' }],
+    ['meta', { name: 'twitter:image', content: 'https://starlo-rd.github.io/og-image.jpg' }],
     
     // Additional SEO
     ['meta', { name: 'application-name', content: 'Mohanpathi Portfolio' }],
@@ -53,7 +53,7 @@ export default defineConfig({
       "name": "Mohanpathi",
       "jobTitle": "System Architect & Full-Stack Engineer",
       "description": "Expert System Architect specializing in scalable systems, real-time data processing, and enterprise-grade solutions",
-      "url": "https://starlo-rd.github.io/my-portfolio/",
+      "url": "https://starlo-rd.github.io/",
       "sameAs": [
         "https://github.com/STarLo-rd",
         "https://linkedin.com/in/mohanpathi",
@@ -157,7 +157,6 @@ export default defineConfig({
   
   // Site Configuration
   lang: 'en-US',
-  base: '/my-portfolio/',
   cleanUrls: true,
   
   // Performance optimizations
@@ -170,7 +169,7 @@ export default defineConfig({
   
   // Sitemap Generation
   sitemap: {
-    hostname: 'https://starlo-rd.github.io/my-portfolio/'
+    hostname: 'https://starlo-rd.github.io/'
   },
   
   themeConfig: {
