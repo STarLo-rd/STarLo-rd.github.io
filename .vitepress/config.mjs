@@ -454,7 +454,7 @@ export default defineConfig({
     const head = []
     
     // Add canonical URL for each page
-    head.push(['link', { rel: 'canonical', href: `https://starlo-rd.github.io/my-portfolio${pageData.relativePath.replace(/\.md$/, '.html').replace(/index\.html$/, '')}` }])
+    head.push(['link', { rel: 'canonical', href: `https://starlo-rd.github.io/${pageData.relativePath.replace(/\.md$/, '.html').replace(/index\.html$/, '')}` }])
     
     // Add page-specific meta description
     if (pageData.frontmatter?.description) {
