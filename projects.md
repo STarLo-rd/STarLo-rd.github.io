@@ -1,6 +1,11 @@
 ---
 layout: doc
-title: Projects
+title: Enterprise Software Projects by Mohanpathi - System Architect Portfolio
+description: Explore professional software engineering projects by Mohanpathi including QuickLinker-ZeroRPM URL shortener, BrandPulse sentiment analysis platform, Chainly SDK workflow orchestration, Distributed Abuse Detection system, and Attestify cryptographic security framework. Showcasing expertise in scalable systems, real-time processing, and enterprise architecture.
+keywords: mohanpathi projects, system architect projects, enterprise software projects, scalable systems, real-time processing, url shortener, sentiment analysis, workflow orchestration, content moderation, cryptographic security, node.js projects, typescript sdk, microservices architecture, high performance systems
+author: Mohanpathi
+robots: index, follow
+canonical: https://starlo-rd.github.io/my-portfolio/projects
 nav:
   order: 1
 ---

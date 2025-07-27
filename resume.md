@@ -38,10 +38,13 @@ sidebar: false
       <h2>Work Experience</h2>
       <div class="timeline">
         <div class="experience-item">
-          <h3>Optisol, India</h3>
-          <p class="role">Software Engineer • Coimbatore, India • 02/2025 - Present</p>
+          <h3>Optisol Business Solution, India</h3>
+          <p class="role">Software Engineer • Chennai, India • 02/2025 - Present</p>
           <ul>
-            <li>[Details - once available.]</li>
+            <li>Leading the development of a full-stack, enterprise-grade solution for a financial services client, integrating GenAI to automate and streamline credit report tracking for businesses.</li>
+            <li>Architected and implemented secure backend services, ensuring data integrity and compliance with modern enterprise security standards and best coding practices, enabling end-to-end protection of sensitive financial data.</li>
+            <li>Integrated GenAI services for intelligent data extraction, summarization, and anomaly detection in financial documents, enabling advanced insights and faster credit evaluation.</li>
+            <li>Recognized with a Spot Award for delivering high-impact features and driving innovation in financial automation.</li>
           </ul>
         </div>
         <div class="experience-item">
