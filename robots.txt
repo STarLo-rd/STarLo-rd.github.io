@@ -1,18 +1,104 @@
+# Robots.txt for Mohanpathi Portfolio - System Architect & Full-Stack Engineer
+# Optimized for search engine crawling and indexing
+
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
-# Sitemap
-Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap.xml
-
-# Priority pages
+# High-priority pages for indexing
+Allow: /
 Allow: /projects
 Allow: /resume
+Allow: /docs/
 Allow: /docs/quicklinker-zeroRPM/
 Allow: /docs/brandpulse/
+Allow: /docs/chainly-sdk/
+Allow: /docs/template-generator/
+Allow: /docs/distributed-abuse-detection/
 Allow: /docs/attestify/
 
-# Block unnecessary files
+# Specific crawler optimizations
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Block development and system files
 Disallow: /.vitepress/
 Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /src/
+Disallow: /dist/
+Disallow: /temp/
+Disallow: /tmp/
 Disallow: /*.json$
-Disallow: /*.lock$ 
+Disallow: /*.lock$
+Disallow: /*.log$
+Disallow: /*.md$ 
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /yarn.lock
+Disallow: /.gitignore
+Disallow: /.env*
+Disallow: /README.md
+
+# Block admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /debug/
+
+# Allow important assets
+Allow: /assets/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+Allow: /*.pdf$
+
+# Sitemap locations
+Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap.xml
+Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap_index.xml
+
+# Contact information
+# Host: https://starlo-rd.github.io/my-portfolio/
+# Created: 2025-01-27
+# Last-Modified: 2025-01-27
+# Purpose: SEO optimization for Mohanpathi's professional portfolio 
