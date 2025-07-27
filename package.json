@@ -1,5 +1,11 @@
 {
+  "name": "mohanpathi-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio of Mohanpathi - System Architect & Full-Stack Engineer",
   "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"

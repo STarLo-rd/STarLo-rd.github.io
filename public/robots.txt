@@ -94,11 +94,11 @@ Allow: /*.ico$
 Allow: /*.pdf$
 
 # Sitemap locations
-Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap.xml
-Sitemap: https://starlo-rd.github.io/my-portfolio/sitemap_index.xml
+Sitemap: https://starlo-rd.github.io/sitemap.xml
+Sitemap: https://starlo-rd.github.io/sitemap_index.xml
 
 # Contact information
-# Host: https://starlo-rd.github.io/my-portfolio/
+# Host: https://starlo-rd.github.io/
 # Created: 2025-01-27
 # Last-Modified: 2025-01-27
 # Purpose: SEO optimization for Mohanpathi's professional portfolio 

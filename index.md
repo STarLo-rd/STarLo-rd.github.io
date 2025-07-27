@@ -6,7 +6,7 @@ description: Mohanpathi is an expert System Architect and Full-Stack Engineer sp
 keywords: mohanpathi, mohanpathi portfolio, system architect, full-stack engineer, node.js expert, postgresql developer, scalable systems, enterprise solutions, real-time processing, cryptographic security, microservices architecture, typescript developer, software engineering portfolio
 author: Mohanpathi
 robots: index, follow
-canonical: https://starlo-rd.github.io/my-portfolio/
+canonical: https://starlo-rd.github.io/
 
 hero:
   name: "Mohanpathi"

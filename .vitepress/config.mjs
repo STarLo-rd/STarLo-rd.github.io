@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/my-portfolio/',
+  base: '/',
   title: "Mohanpathi | System Architect & Full-Stack Engineer",
   description: "Mohanpathi - Expert System Architect specializing in scalable systems, real-time data processing, and enterprise-grade solutions. QuickLinker-ZeroRPM, BrandPulse, Chainly SDK, Distributed Abuse Detection, Attestify projects.",
   
@@ -50,9 +50,9 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'Mohanpathi Portfolio - System Architect & Engineer' }],
     ['meta', { property: 'og:title', content: 'Mohanpathi | Expert System Architect & Full-Stack Engineer Portfolio' }],
     ['meta', { property: 'og:description', content: 'Professional portfolio of Mohanpathi, an expert System Architect specializing in scalable systems, real-time data processing, and enterprise-grade solutions. Featured projects: QuickLinker-ZeroRPM URL shortener, BrandPulse sentiment analysis platform, Chainly SDK workflow orchestration, Distributed Abuse Detection system, and Attestify cryptographic security framework.' }],
-    ['meta', { property: 'og:url', content: 'https://starlo-rd.github.io/my-portfolio/' }],
-    ['meta', { property: 'og:image', content: 'https://starlo-rd.github.io/my-portfolio/og-image.jpg' }],
-    ['meta', { property: 'og:image:secure_url', content: 'https://starlo-rd.github.io/my-portfolio/og-image.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://starlo-rd.github.io/' }],
+    ['meta', { property: 'og:image', content: 'https://starlo-rd.github.io/og-image.jpg' }],
+    ['meta', { property: 'og:image:secure_url', content: 'https://starlo-rd.github.io/og-image.jpg' }],
     ['meta', { property: 'og:image:type', content: 'image/jpeg' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
@@ -60,8 +60,8 @@ export default defineConfig({
     ['meta', { property: 'og:updated_time', content: new Date().toISOString() }],
     ['meta', { property: 'profile:first_name', content: 'Mohanpathi' }],
     ['meta', { property: 'profile:username', content: 'mohanpathi' }],
-    ['meta', { property: 'article:author', content: 'https://starlo-rd.github.io/my-portfolio/' }],
-    ['meta', { property: 'article:publisher', content: 'https://starlo-rd.github.io/my-portfolio/' }],
+    ['meta', { property: 'article:author', content: 'https://starlo-rd.github.io/' }],
+    ['meta', { property: 'article:publisher', content: 'https://starlo-rd.github.io/' }],
     
     // Twitter Card Meta Tags
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -69,7 +69,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:creator', content: '@mohanpathi' }],
     ['meta', { name: 'twitter:title', content: 'Mohanpathi | Expert System Architect & Full-Stack Engineer Portfolio' }],
     ['meta', { name: 'twitter:description', content: 'Professional portfolio of Mohanpathi featuring enterprise-grade projects: QuickLinker-ZeroRPM, BrandPulse, Chainly SDK, Distributed Abuse Detection, and Attestify. Specializing in scalable systems, real-time data processing, and cryptographic security.' }],
-    ['meta', { name: 'twitter:image', content: 'https://starlo-rd.github.io/my-portfolio/og-image.jpg' }],
+    ['meta', { name: 'twitter:image', content: 'https://starlo-rd.github.io/og-image.jpg' }],
     ['meta', { name: 'twitter:image:alt', content: 'Mohanpathi Portfolio - System Architect showcasing enterprise software projects' }],
     ['meta', { name: 'twitter:label1', content: 'Specialization' }],
     ['meta', { name: 'twitter:data1', content: 'System Architecture & Full-Stack Engineering' }],
@@ -85,16 +85,16 @@ export default defineConfig({
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://starlo-rd.github.io/my-portfolio/#person",
+      "@id": "https://starlo-rd.github.io/#person",
       "name": "Mohanpathi",
       "alternateName": ["mohanpathi", "Mohan Pathi"],
       "jobTitle": "System Architect & Full-Stack Engineer",
       "description": "Expert System Architect and Full-Stack Engineer specializing in scalable systems, real-time data processing, enterprise-grade solutions, and cryptographic security. Creator of high-performance applications processing millions of events daily.",
-      "url": "https://starlo-rd.github.io/my-portfolio/",
-      "mainEntityOfPage": "https://starlo-rd.github.io/my-portfolio/",
+      "url": "https://starlo-rd.github.io/",
+      "mainEntityOfPage": "https://starlo-rd.github.io/",
       "image": {
         "@type": "ImageObject",
-        "url": "https://starlo-rd.github.io/my-portfolio/og-image.jpg",
+        "url": "https://starlo-rd.github.io/og-image.jpg",
         "width": 1200,
         "height": 630,
         "caption": "Mohanpathi - System Architect Portfolio"
@@ -185,8 +185,8 @@ export default defineConfig({
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://starlo-rd.github.io/my-portfolio/#website",
-      "url": "https://starlo-rd.github.io/my-portfolio/",
+      "@id": "https://starlo-rd.github.io/#website",
+      "url": "https://starlo-rd.github.io/",
       "name": "Mohanpathi Portfolio - System Architect & Full-Stack Engineer",
       "description": "Professional portfolio showcasing enterprise-grade software projects and system architecture expertise by Mohanpathi",
       "inLanguage": "en-US",
@@ -201,27 +201,27 @@ export default defineConfig({
       },
       "author": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "creator": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "publisher": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://starlo-rd.github.io/my-portfolio/?q={search_term_string}"
+          "urlTemplate": "https://starlo-rd.github.io/?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       },
       "mainEntity": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       }
     })],
     
@@ -229,14 +229,14 @@ export default defineConfig({
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "@id": "https://starlo-rd.github.io/my-portfolio/#service",
+      "@id": "https://starlo-rd.github.io/#service",
       "name": "Mohanpathi - System Architecture & Engineering Services",
       "description": "Professional system architecture, full-stack development, and enterprise solution consulting services",
-      "url": "https://starlo-rd.github.io/my-portfolio/",
+      "url": "https://starlo-rd.github.io/",
       "serviceType": ["System Architecture", "Full-Stack Development", "Enterprise Solutions", "Performance Optimization", "Security Implementation"],
       "provider": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "areaServed": {
         "@type": "Place",
@@ -292,17 +292,17 @@ export default defineConfig({
     ['script', { type: 'application/ld+json' }, JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      "@id": "https://starlo-rd.github.io/my-portfolio/#portfolio",
+      "@id": "https://starlo-rd.github.io/#portfolio",
       "name": "Mohanpathi's Software Engineering Portfolio",
       "description": "Comprehensive portfolio showcasing enterprise-grade software projects, system architecture expertise, and innovative solutions in scalable systems development",
-      "url": "https://starlo-rd.github.io/my-portfolio/projects",
+      "url": "https://starlo-rd.github.io/projects",
       "author": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "creator": {
         "@type": "Person",
-        "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+        "@id": "https://starlo-rd.github.io/#person"
       },
       "dateCreated": "2024-01-01",
       "dateModified": new Date().toISOString().split('T')[0],
@@ -310,7 +310,7 @@ export default defineConfig({
       "hasPart": [
         {
           "@type": "SoftwareApplication",
-          "@id": "https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/",
+          "@id": "https://starlo-rd.github.io/docs/quicklinker-zeroRPM/",
           "name": "QuickLinker-ZeroRPM",
           "description": "High-performance URL shortener engineered for massive scale with sub-millisecond response times, 99.99% uptime, and intelligent caching. Built with Node.js, PostgreSQL, and Redis for enterprise-grade reliability.",
           "applicationCategory": ["Web Application", "URL Shortener", "High Performance System"],
@@ -322,14 +322,14 @@ export default defineConfig({
           "featureList": ["Sub-millisecond response times", "99.99% uptime", "Intelligent caching", "Real-time analytics", "Cost-optimized architecture"],
           "author": {
             "@type": "Person",
-            "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+            "@id": "https://starlo-rd.github.io/#person"
           },
-          "url": "https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/",
+          "url": "https://starlo-rd.github.io/docs/quicklinker-zeroRPM/",
           "keywords": ["url shortener", "high performance", "scalable architecture", "node.js", "postgresql", "redis", "microservices"]
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://starlo-rd.github.io/my-portfolio/docs/brandpulse/",
+          "@id": "https://starlo-rd.github.io/docs/brandpulse/",
           "name": "BrandPulse",
           "description": "Enterprise-scale real-time brand monitoring platform processing 700K+ social media posts per second with advanced sentiment analysis, streaming architecture, and machine learning integration. Built with Node.js, Apache Kafka, and InfluxDB.",
           "applicationCategory": ["Analytics Platform", "Real-time Processing", "Sentiment Analysis"],
@@ -341,14 +341,14 @@ export default defineConfig({
           "featureList": ["700K+ posts/second processing", "Real-time sentiment analysis", "Machine learning integration", "Fault-tolerant architecture", "Sub-second dashboard updates"],
           "author": {
             "@type": "Person",
-            "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+            "@id": "https://starlo-rd.github.io/#person"
           },
-          "url": "https://starlo-rd.github.io/my-portfolio/docs/brandpulse/",
+          "url": "https://starlo-rd.github.io/docs/brandpulse/",
           "keywords": ["sentiment analysis", "real-time processing", "kafka streaming", "machine learning", "social media monitoring", "influxdb", "brand analytics"]
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/",
+          "@id": "https://starlo-rd.github.io/docs/chainly-sdk/",
           "name": "Chainly SDK",
           "description": "Enterprise-grade TypeScript workflow orchestration framework with intelligent dependency resolution, advanced error handling, and real-time event-driven execution. Reduces workflow implementation time by 60% with type safety and <1ms execution overhead.",
           "applicationCategory": ["Developer SDK", "Workflow Orchestration", "TypeScript Framework"],
@@ -359,14 +359,14 @@ export default defineConfig({
           "featureList": ["60% faster implementation", "80% fewer runtime errors", "<1ms execution overhead", "10,000+ concurrent tasks", "Type-safe workflows"],
           "author": {
             "@type": "Person",
-            "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+            "@id": "https://starlo-rd.github.io/#person"
           },
-          "url": "https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/",
+          "url": "https://starlo-rd.github.io/docs/chainly-sdk/",
           "keywords": ["typescript sdk", "workflow orchestration", "dependency resolution", "event-driven architecture", "developer tools", "type safety"]
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/",
+          "@id": "https://starlo-rd.github.io/docs/distributed-abuse-detection/",
           "name": "Distributed Abuse Detection System",
           "description": "Enterprise-scale content moderation system processing 2.5M+ events daily with multi-modal AI inference (text, image, audio), 45ms average latency, and 99.95% availability. Built with Node.js, Go, Kafka, and Kubernetes.",
           "applicationCategory": ["Content Moderation Platform", "Machine Learning System", "Distributed System"],
@@ -378,14 +378,14 @@ export default defineConfig({
           "featureList": ["2.5M+ events/day processing", "Multi-modal AI inference", "45ms average latency", "99.95% system availability", "Auto-scaling capabilities"],
           "author": {
             "@type": "Person",
-            "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+            "@id": "https://starlo-rd.github.io/#person"
           },
-          "url": "https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/",
+          "url": "https://starlo-rd.github.io/docs/distributed-abuse-detection/",
           "keywords": ["content moderation", "machine learning", "distributed systems", "kubernetes", "real-time processing", "ai inference", "auto-scaling"]
         },
         {
           "@type": "SoftwareApplication",
-          "@id": "https://starlo-rd.github.io/my-portfolio/docs/attestify/",
+          "@id": "https://starlo-rd.github.io/docs/attestify/",
           "name": "Attestify",
           "description": "Enterprise-grade TypeScript SDK ecosystem for cryptographically secure payment commitments using HD wallets, secp256k1 signatures, and distributed trust mechanisms. Features military-grade security and legally binding digital commitments.",
           "applicationCategory": ["Cryptographic SDK", "Payment Security", "Digital Signatures"],
@@ -397,9 +397,9 @@ export default defineConfig({
           "featureList": ["Military-grade cryptographic security", "HD wallet integration", "Digital signature verification", "Cross-platform compatibility", "Enterprise SDK architecture"],
           "author": {
             "@type": "Person",
-            "@id": "https://starlo-rd.github.io/my-portfolio/#person"
+            "@id": "https://starlo-rd.github.io/#person"
           },
-          "url": "https://starlo-rd.github.io/my-portfolio/docs/attestify/",
+          "url": "https://starlo-rd.github.io/docs/attestify/",
           "keywords": ["cryptographic security", "digital signatures", "payment commitments", "hd wallets", "typescript sdk", "secp256k1", "enterprise security"]
         }
       ],
@@ -417,19 +417,19 @@ export default defineConfig({
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://starlo-rd.github.io/my-portfolio/"
+          "item": "https://starlo-rd.github.io/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Projects",
-          "item": "https://starlo-rd.github.io/my-portfolio/projects"
+          "item": "https://starlo-rd.github.io/projects"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Resume",
-          "item": "https://starlo-rd.github.io/my-portfolio/resume"
+          "item": "https://starlo-rd.github.io/resume"
         }
       ]
     })]
@@ -476,10 +476,7 @@ export default defineConfig({
       cssMinify: true,
       rollupOptions: {
         output: {
-          manualChunks: {
-            vendor: ['vue'],
-            utils: ['lodash-es']
-          }
+          // Removed manual chunks to fix build error with Vue externalization
         }
       },
       chunkSizeWarningLimit: 1000,
@@ -510,7 +507,7 @@ export default defineConfig({
   
   // Sitemap Generation
   sitemap: {
-    hostname: 'https://starlo-rd.github.io/my-portfolio/'
+    hostname: 'https://starlo-rd.github.io/'
   },
   
   themeConfig: {

@@ -10,7 +10,7 @@
   
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/</loc>
+    <loc>https://starlo-rd.github.io/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -19,7 +19,7 @@
   
   <!-- Main Navigation Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/projects</loc>
+    <loc>https://starlo-rd.github.io/projects</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -27,7 +27,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/resume</loc>
+    <loc>https://starlo-rd.github.io/resume</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -36,7 +36,7 @@
   
   <!-- Featured Project Landing Pages - High Priority -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/</loc>
+    <loc>https://starlo-rd.github.io/docs/quicklinker-zeroRPM/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -44,7 +44,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/brandpulse/</loc>
+    <loc>https://starlo-rd.github.io/docs/brandpulse/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -52,7 +52,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/</loc>
+    <loc>https://starlo-rd.github.io/docs/chainly-sdk/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -60,7 +60,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/</loc>
+    <loc>https://starlo-rd.github.io/docs/distributed-abuse-detection/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -68,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/attestify/</loc>
+    <loc>https://starlo-rd.github.io/docs/attestify/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -76,7 +76,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/template-generator/</loc>
+    <loc>https://starlo-rd.github.io/docs/template-generator/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -85,7 +85,7 @@
   
   <!-- QuickLinker-ZeroRPM Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/overview</loc>
+    <loc>https://starlo-rd.github.io/docs/quicklinker-zeroRPM/overview</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/project-overview/introduction</loc>
+    <loc>https://starlo-rd.github.io/docs/quicklinker-zeroRPM/project-overview/introduction</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/quicklinker-zeroRPM/technical-architecture/phase-1</loc>
+    <loc>https://starlo-rd.github.io/docs/quicklinker-zeroRPM/technical-architecture/phase-1</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,7 +110,7 @@
   
   <!-- BrandPulse Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/brandpulse/problem-statement</loc>
+    <loc>https://starlo-rd.github.io/docs/brandpulse/problem-statement</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -118,7 +118,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/brandpulse/technical-arch</loc>
+    <loc>https://starlo-rd.github.io/docs/brandpulse/technical-arch</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -126,7 +126,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/brandpulse/implementation/</loc>
+    <loc>https://starlo-rd.github.io/docs/brandpulse/implementation/</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -134,7 +134,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/brandpulse/demo</loc>
+    <loc>https://starlo-rd.github.io/docs/brandpulse/demo</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -143,7 +143,7 @@
   
   <!-- Chainly SDK Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/architecture</loc>
+    <loc>https://starlo-rd.github.io/docs/chainly-sdk/architecture</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -151,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/implementation</loc>
+    <loc>https://starlo-rd.github.io/docs/chainly-sdk/implementation</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -159,7 +159,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/chainly-sdk/api-reference</loc>
+    <loc>https://starlo-rd.github.io/docs/chainly-sdk/api-reference</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -168,7 +168,7 @@
   
   <!-- Distributed Abuse Detection Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/architecture</loc>
+    <loc>https://starlo-rd.github.io/docs/distributed-abuse-detection/architecture</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -176,7 +176,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/implementation</loc>
+    <loc>https://starlo-rd.github.io/docs/distributed-abuse-detection/implementation</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +184,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/distributed-abuse-detection/performance</loc>
+    <loc>https://starlo-rd.github.io/docs/distributed-abuse-detection/performance</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -193,7 +193,7 @@
   
   <!-- Attestify Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/attestify/tech-architecture</loc>
+    <loc>https://starlo-rd.github.io/docs/attestify/tech-architecture</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -201,7 +201,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/attestify/implementation</loc>
+    <loc>https://starlo-rd.github.io/docs/attestify/implementation</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/attestify/demo</loc>
+    <loc>https://starlo-rd.github.io/docs/attestify/demo</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,7 +218,7 @@
   
   <!-- Template Generator Deep Pages -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/template-generator/architecture</loc>
+    <loc>https://starlo-rd.github.io/docs/template-generator/architecture</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -226,7 +226,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/template-generator/implementation</loc>
+    <loc>https://starlo-rd.github.io/docs/template-generator/implementation</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -234,7 +234,7 @@
   </url>
   
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/docs/template-generator/demo</loc>
+    <loc>https://starlo-rd.github.io/docs/template-generator/demo</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -243,7 +243,7 @@
   
   <!-- Important Assets -->
   <url>
-    <loc>https://starlo-rd.github.io/my-portfolio/assets/resume.pdf</loc>
+    <loc>https://starlo-rd.github.io/assets/resume.pdf</loc>
     <lastmod>2025-01-27T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

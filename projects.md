@@ -5,7 +5,7 @@ description: Explore professional software engineering projects by Mohanpathi in
 keywords: mohanpathi projects, system architect projects, enterprise software projects, scalable systems, real-time processing, url shortener, sentiment analysis, workflow orchestration, content moderation, cryptographic security, node.js projects, typescript sdk, microservices architecture, high performance systems
 author: Mohanpathi
 robots: index, follow
-canonical: https://starlo-rd.github.io/my-portfolio/projects
+canonical: https://starlo-rd.github.io/projects
 nav:
   order: 1
 ---
