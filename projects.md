@@ -124,11 +124,11 @@ Enterprise-grade TypeScript SDK ecosystem for cryptographically secure payment c
 
 | Project | Scale | Performance | Uptime |
 |---------|-------|-------------|---------|
-| QuickLinker | 1M+ requests/day | <1ms response | 99.99% |
-| BrandPulse | 700K posts/sec | Real-time processing | 99.95% |
-| Chainly SDK | 10K+ concurrent tasks | <1ms overhead | 99.9% |
-| Abuse Detection | 2.5M+ events/day | 45ms avg response | 99.95% |
-| Attestify | Enterprise-grade | Cryptographic security | 99.99% |
+| <span data-label="Project">QuickLinker</span> | <span data-label="Scale">1M+ requests/day</span> | <span data-label="Performance"><1ms response</span> | <span data-label="Uptime">99.99%</span> |
+| <span data-label="Project">BrandPulse</span> | <span data-label="Scale">700K posts/sec</span> | <span data-label="Performance">Real-time processing</span> | <span data-label="Uptime">99.95%</span> |
+| <span data-label="Project">Chainly SDK</span> | <span data-label="Scale">10K+ concurrent tasks</span> | <span data-label="Performance"><1ms overhead</span> | <span data-label="Uptime">99.9%</span> |
+| <span data-label="Project">Abuse Detection</span> | <span data-label="Scale">2.5M+ events/day</span> | <span data-label="Performance">45ms avg response</span> | <span data-label="Uptime">99.95%</span> |
+| <span data-label="Project">Attestify</span> | <span data-label="Scale">Enterprise-grade</span> | <span data-label="Performance">Cryptographic security</span> | <span data-label="Uptime">99.99%</span> |
 
 ---
 
@@ -258,6 +258,165 @@ table tr:hover {
   
   .cta-section {
     padding: 2rem 1rem;
+  }
+
+  /* Project section improvements */
+  h1, h2, h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Status badge improvements */
+  .status-badge {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.25rem;
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  /* Table responsiveness */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 0.85rem;
+    margin: 1rem 0;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+    min-width: 100px;
+  }
+
+  /* Content spacing */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  /* List improvements */
+  ul li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* Button improvements */
+  .cta-section a {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further mobile optimizations */
+  h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+
+  /* Status badge for very small screens */
+  .status-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.4rem;
+    display: block;
+    width: fit-content;
+    margin: 0.5rem 0 0 0;
+  }
+
+  /* Tech grid improvements */
+  .tech-grid {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .tech-grid > div {
+    padding: 0.75rem;
+  }
+
+  /* Table for mobile */
+  table {
+    font-size: 0.8rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.375rem;
+    min-width: 80px;
+  }
+
+  /* CTA section */
+  .cta-section {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .cta-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-section p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-section a {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.85rem;
+    margin: 0.125rem;
+  }
+
+  /* Paragraph improvements */
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Performance metrics table */
+  table tr {
+    display: block;
+    border: 1px solid var(--vp-c-border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+
+  table th {
+    display: none;
+  }
+
+  table td {
+    display: block;
+    text-align: left;
+    border: none;
+    padding: 0.25rem 0;
+  }
+
+  table td:before {
+    content: attr(data-label) ": ";
+    font-weight: 600;
+    color: var(--vp-c-brand-1);
   }
 }
 </style>
